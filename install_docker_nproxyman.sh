@@ -31,8 +31,8 @@ installApps()
         echo ""
     fi
 
-    read -rp "NGinX Proxy Manager (y/n): " NPM
-    read -rp "Navidrome (y/n): " NAVID
+    read -rp "NGINX Proxy Manager (y/n): " NPM
+    read -rp "Navidrome (stream music) (y/n): " NAVID
     read -rp "Portainer-CE (y/n): " PTAIN
     read -rp "Remotely - Remote Desktop Support (y/n): " REMOTELY
     read -rp "Guacamole - Remote Desktop Protocol in the Browser (y/n): " GUAC
